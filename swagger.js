@@ -7,7 +7,7 @@ const options = {
         info: {
             title: 'Vin-Online Shopping API Documentation',
             version: '1.0.0',
-            description: 'API Documentation for Vin-Online Shopping application.',
+            description: 'API Documentation for Vin-Online Shopping application. A REST API with NodeJS and MySQL.',
         },
         servers: [
             {

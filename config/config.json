@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "DB Password",
+    "password": "Your DB Password",
     "database": "vin_online_shopping_API",
     "host": "127.0.0.1",
     "dialect": "mysql"

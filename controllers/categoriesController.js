@@ -110,7 +110,7 @@ function updateCategory (req, res){
 
     models.Category.findByPk(id).then(category => { 
         if(category){
-            return models.Category.update(UpdateCat, {where: {category_id: id}}); 
+            return models.Category.update(UpdateCat, {where: {id: id}}); 
         }else{
             res.status(404).json({
                 message: "Category ID not found."
@@ -118,7 +118,7 @@ function updateCategory (req, res){
         }
     }).then(result => {
         if(result){
-            res.status(201).json({
+            res.status(200).json({
                 message: "Category updated successfully.",
                 category: UpdateCat
             });

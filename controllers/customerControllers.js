@@ -168,7 +168,7 @@ function updateCustomer (req, res){
         }
     }).then(result => {
         if(result){
-            res.status(201).json({
+            res.status(200).json({
                 message: "Customer updated successfully.",
                 customer: updateCust
             });
