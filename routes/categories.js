@@ -97,7 +97,7 @@ route.get('/:id', categoryController.categoryByID);
  *               categoryName:
  *                 type: string
  *     responses:
- *       201:
+ *       200:
  *         description: Category updated successfully
  *       400:
  *         description: Validation failed

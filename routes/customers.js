@@ -134,7 +134,7 @@ router.patch('/:id', checkAuthMiddleware.checkAuth, customerController.updateCus
  *               country:
  *                 type: string
  *     responses:
- *       201:
+ *       200:
  *         description: Customer updated successfully
  *       400:
  *         description: Validation failed
